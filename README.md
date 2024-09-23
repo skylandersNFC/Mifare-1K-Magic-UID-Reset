@@ -1,11 +1,11 @@
 # Mifare 1K Magic UID Reset (Chinese Magic Cards Only)
 
 ## Overview
-Mifare 1k Magic UID Reset is a MIFARE tool that allows setting of UID on special versions (Chinese clones) of Mifare 1K cards.
+Mifare 1k Magic UID Reset is a MIFARE tool that allows setting of UID on special versions (chinese clones) of Mifare 1K cards.
 
-It will also recover damaged cards that have had invalid data written to block 0 (e.g. wrong BCC).
+Those are also called Magic Cards or Gen1 UID Re-Writable.
 
-Currently only 4 Byte UID is supported.
+It will also recover damaged cards that have had invalid data written to block 0 (e.g. wrong BCC). Currently only 4 Byte UID is supported.
 
 ## How to Run It
 
