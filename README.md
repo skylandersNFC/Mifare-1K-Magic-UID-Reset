@@ -5,6 +5,12 @@
 Those are also called **Gen1 UID Re-Writable**.
 It will also recover damaged cards that have had **invalid data written to block 0** (e.g. wrong BCC). Currently **only 4 Byte UID** is supported.
 
+## Prerequisites 
+
+For the "**nfc-mfsetuid.exe**" CMD module to work, you need to have a **ACR122U** connected with a proper **[ASC Driver 4.2.8.0](https://skylandersnfc.github.io/Docs/Skylanders_Buying_List/Skylanders_NFC_Devices/ACR122U/drivers/ACS_Unified_Driver_MSI_Win_4280.zip)** driver installed.
+
+For the "**Mifare-1k-Magic-UID-Reset.exe**" auto-loader to work, you need to have **[Microsoft Visual C++ 2010 SP1 Redistributable Package](https://www.microsoft.com/en-us/download/details.aspx?id=26999)** installed.
+
 ## How to Run It
 
 1. You need to have **ACR122U** and a **Mifare 1K Magic Card on it**.
