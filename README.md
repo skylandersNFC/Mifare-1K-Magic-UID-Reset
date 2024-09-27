@@ -11,6 +11,8 @@ For the "**nfc-mfsetuid.exe**" CMD module to work, you need to have a **[ACR122U
 
 For the "**Mifare-1k-Magic-UID-Reset.exe**" auto-loader to work, you need to have **[Microsoft Visual C++ 2010 SP1 Redistributable Package](https://www.microsoft.com/en-us/download/details.aspx?id=26999)** installed.
 
+If you still can't run "**Mifare-1k-Magic-UID-Reset.exe**" for some reason, just double click on the "**Reset.bat**" file.
+
 ## How to Run It
 
 1. You need to have **[ACR122U](https://skylandersnfc.github.io/Docs/Skylanders_Buying_List/Skylanders_NFC_Devices/#acr122u-all-skylanders)** and a **[Mifare 1K Magic Card](https://skylandersnfc.github.io/Docs/Skylanders_Buying_List/Skylanders_NFC_Cards/#gen1-uid-tags-for-external-nfc-devices-acr122u-pn532-v20-ns106-ns122) on it**.
@@ -24,6 +26,19 @@ For the "**Mifare-1k-Magic-UID-Reset.exe**" auto-loader to work, you need to hav
 1. Open **CMD** where the **nfc-mfsetuid.exe** file is.
 2. Use this command **`nfc-mfsetuid 00000000 -f`**
 3. For **different UID**, replace **`00000000`** with whatever you want.
+
+Alternatively you can double click the "**Reset.bat**" which contains this code
+
+```
+@echo off
+nfc-mfsetuid 00000000 -f 
+pause
+```
+
+It will call the **nfc-mfsetuid.exe** with the "**00000000 -f**" command.
+
+You can also change the UID here, inside the bat file, and run it again for different UID.
+
 
 ## Screenshot
 
